@@ -1,0 +1,20 @@
+POST http://127.0.0.1:5000/registro/create HTTP/1.1
+content-type: application/json
+
+{
+    "msgIndex": 1, 
+    "video_ref": "video_2.mp4",
+    "frame_seconds_index": 1, 
+    "op_type": "grayscale|random_rotation",
+    "status": ""
+}
+
+###
+
+GET http://127.0.0.1:5000/registro HTTP/1.1
+
+
+###
+
+
+PUT http://127.0.0.1:5000/registro/update/1/OK HTTP/1.1
