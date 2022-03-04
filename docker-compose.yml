@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  extrator:
+    image: extrator
+    build:
+      context: .
+      dockerfile: ./Dockerfile
